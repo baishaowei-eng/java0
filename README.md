@@ -34,7 +34,7 @@
   
     2.
    
-                  CPU cpu=new CPU();
+             CPU cpu=new CPU();
 	     HardDisk HD= new HardDisk();
    
    ## 4. 流程图
