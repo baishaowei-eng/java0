@@ -6,15 +6,15 @@
 4.尝试把本次实验的多个类放置在不同的包中，体验修饰符private的用法。
 ## 2.实验设计
 1.设置硬盘对象，给CPU对象设置amount,speed方法。设置amount,speed方法在硬盘对象外不可访问
-··· 
+
     public class CPU {
     public int Speed;   
     public String name; 
-...
+
  2.自建了主板对象以及屏幕对象。
  ## 3.核心方法
  1.
- ···
+
            public int getSpeed() {
 		return Speed;
 	   }
@@ -31,26 +31,26 @@
 	   public void setName(String name) {
 		 this.name = name;
 	   }
-    ...
+  
     2.
-    ...
+   
        CPU cpu=new CPU();
 	     HardDisk HD= new HardDisk();
-    ...
+   
    ## 4.流程图
    
    ## 5.实验结果
-   ...
+   
       CPU:2200
       硬盘容量:200
       CPU名称:鸿蒙
-  ...
+
   ## 实验感想
-  ...
+
   1.通过这个实验学习到了
    public private 的不同用法
   2. 如何通过构造方法来获取相应的值
   3. 学会了如何导出项目
-  ...
+
    
      
