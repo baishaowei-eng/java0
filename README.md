@@ -11,7 +11,6 @@
     public int Speed;   
     public String name; 
 
- 2.自建了主板对象以及屏幕对象。
  ## 3. 核心方法
  
     1.
