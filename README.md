@@ -5,6 +5,7 @@
 3. 根据课堂中关于访问权限的内容，尝试定义属性的修饰多样化，类中定义方法操作属性，避免直接通过“类对象属性的形式访问属性值;且定义的方法内应该又符合常理的逻辑判断。
 4. 尝试把本次实验的多个类放置在不同的包中，体验修饰符private的用法。
 ## 2. 实验设计
+
 + 1.设置硬盘对象，给CPU对象设置amount,speed方法。设置amount,speed方法在硬盘对象外不可访问
 
     public class CPU {
@@ -20,7 +21,7 @@
  ## 3. 核心方法
  
   1.
-          
+        ```  
            public int getSpeed() {
 		return Speed;
 	   }
@@ -37,7 +38,7 @@
 	   public void setName(String name) {
 		 this.name = name;
 	   }
-
+        ```
    2.
           实列话CPU和硬盘对象来进行初始化，在通过show 方法来输出相应的内容。     
 	
