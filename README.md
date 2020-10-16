@@ -21,7 +21,7 @@
  ## 3. 核心方法
  
   1. 通过set get方法来设置和获取CPU的速度和名字。
-    ```
+  
            public int getSpeed() {
 		return Speed;
 	   }
@@ -38,13 +38,13 @@
 	   public void setName(String name) {
 		 this.name = name;
 	   }
-    ```
-    ```
+    
+   
          2. 实列话CPU和硬盘对象来进行初始化，在通过show 方法来输出相应的内容。     
 
           CPU cpu=new CPU();
 	     HardDisk HD= new HardDisk();
-	``` 
+	 
    
    
    ## 4. 实验结果
