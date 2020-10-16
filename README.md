@@ -9,8 +9,8 @@
 + 1.设置硬盘对象，给CPU对象设置amount,speed方法。设置amount,speed方法在硬盘对象外不可访问
 ```
     public class CPU {
-    public  int Speed;   
-    public  String name; 
+    private  int Speed;   
+    private  String name; 
     
     
 + 2.private int  HardDisk(){
