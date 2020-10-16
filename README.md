@@ -13,14 +13,14 @@
     private  String name; 
     
     
-+ 2.private int  HardDisk(){
+   private int  HardDisk(){
       private amount;
       private price;
   }
 ```
  ## 3. 核心方法
  
-  1.
+  1.    通过set get方法来设置和获取CPU的速度和名字。
         ```  
            public int getSpeed() {
 		return Speed;
@@ -39,7 +39,7 @@
 		 this.name = name;
 	   }
         ```
-   2.
+  
           实列话CPU和硬盘对象来进行初始化，在通过show 方法来输出相应的内容。     
 	```
           CPU cpu=new CPU();
