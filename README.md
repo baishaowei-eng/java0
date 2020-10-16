@@ -7,17 +7,17 @@
 ## 2. 实验设计
 
 + 1.设置硬盘对象，给CPU对象设置amount,speed方法。设置amount,speed方法在硬盘对象外不可访问
-
+```
     public class CPU {
     public  int Speed;   
     public  String name; 
     
     
-  + 2.private int  HardDisk(){
++ 2.private int  HardDisk(){
       private amount;
       private price;
   }
-
+```
  ## 3. 核心方法
  
   1.
@@ -41,10 +41,10 @@
         ```
    2.
           实列话CPU和硬盘对象来进行初始化，在通过show 方法来输出相应的内容。     
-	
+	```
           CPU cpu=new CPU();
 	     HardDisk HD= new HardDisk();
-	   
+	```   
    
    
    ## 4. 实验结果
