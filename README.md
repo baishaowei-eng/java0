@@ -20,8 +20,8 @@
 ```
  ## 3. 核心方法
  
-  1.    通过set get方法来设置和获取CPU的速度和名字。
-     ```  
+  1.通过set get方法来设置和获取CPU的速度和名字。
+    
            public int getSpeed() {
 		return Speed;
 	   }
