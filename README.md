@@ -6,7 +6,7 @@
 4. 尝试把本次实验的多个类放置在不同的包中，体验修饰符private的用法。
 ## 2. 实验设计
 
-+ 1.设置硬盘对象，给CPU对象设置amount,speed方法。设置amount,speed方法在硬盘对象外不可访问
++ 1.设置硬盘对象，给CPU对象设置amount,speed方法。设置amount,price方法在硬盘对象外不可访问
 ```
     public class CPU {
     private  int Speed;   
