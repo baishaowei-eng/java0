@@ -40,7 +40,7 @@
 	   }
     
    
-         2. 实列话CPU和硬盘对象来进行初始化，在通过show 方法来输出相应的内容。     
+         实列话CPU和硬盘对象来进行初始化，在通过show 方法来输出相应的内容。     
 
           CPU cpu=new CPU();
 	     HardDisk HD= new HardDisk();
